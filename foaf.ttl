@@ -1,0 +1,18 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+
+<https://raw.githubusercontent.com/Novica19/VBS-labs/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/Novica19/VBS-labs/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/Novica19/VBS-labs/main/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/Novica19/VBS-labs/main/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Novica Jovanovski" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Novica" ;
+  foaf:family_name "Jovanovski" ;
+  foaf:mbox_sha1sum "583c2162d28907b57bb0a80f3930517d14ffafe5" ;
+  foaf:schoolHomepage <https://www.linkedin.com/in/novica-jovanovski-19n/> .
